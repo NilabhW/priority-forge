@@ -20,5 +20,5 @@ PriorityForge is a vanilla JavaScript application designed to help users priorit
 - CSS Variables for theme switching.
 
 ## 🚀 How to Run
-1. Open the Live Link: [Paste your GitHub Pages link here]
+1. Open the Live Link: https://nilabhw.github.io/priority-forge/
 2. Or clone the repo and open `index.html` in your browser.
