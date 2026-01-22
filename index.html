@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PriorityForge</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>PriorityForge</h1>
+    <p class="subtitle">A smart task prioritization & decision engine</p>
+    <button id="themeToggle" class="theme-toggle">
+    🌙 Dark Mode
+    </button>
+
+    <form id="taskForm">
+        <input type="text" id="title" placeholder="Task title" required />
+
+        <label>Importance (1-5)</label>
+        <input type="number" id="importance" min="1" max="5" required />
+
+        <label>Urgency (1-5)</label>
+        <input type="number" id="urgency" min="1" max="5" required />
+
+        <label>Estimated Effort (minutes)</label>
+        <input type="number" id="effort" min="1" required />
+
+        <label>Deadline</label>
+        <input type="date" id="deadline" />
+
+        <button type="submit">Add Task</button>
+
+    </form>
+
+    <div id="taskList"></div>
+    <div id="insight"></div>
+
+
+
+
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
